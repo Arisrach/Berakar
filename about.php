@@ -1,11 +1,11 @@
 <?php include_once('header.php'); ?>
 
-<div class="illustation">
-    <div style="padding-top:400px;">
+<div class="illustation" id="root">
+    <div>
 
     </div>
-    <div class="container">
-<div class="animate-root">
+    <div class="container" >
+<div class="animate-root" >
 
     <h1 class="text-center main-color title-root">
         <span class="title-root1">RESONATE YOU WITH POEPLE'S HEART</span>
@@ -15,11 +15,9 @@
         <span class="title-root3">TO THEIR ROOTS.</span>
     </h1>
 </div>
-        <p class="desc-root text-center my-5">Start from 2008, Berakar Komunikasi which literally means rooted communication, has a commitment to create creative concept based on insight that have strong roots on pulse of Indonesia.</p>
+        <p class="desc-sub text-center my-5 gotlight" id="service">Start from 2008, Berakar Komunikasi which literally means rooted communication, has a commitment to create creative concept based on insight that have strong roots on pulse of Indonesia.</p>
         <div class="text-center">
-
-            <div class="circle mx-auto">
-
+            <div class="circle mx-auto" >
                 <span class="main-color">
                     CREATIVE <br> POWERHOUSE
                 </span>
@@ -29,15 +27,31 @@
     <div class="powerhouse">
 
         <div class="social">
-
-            <div class="row">
+        <div class="row">
+            <div class="col-xl-4 order-xl-3 my-auto">
+            <h3 class="sub-title text-center">SOCIAL
+                                  <br>
+                                  MOVEMENT
+                              </h3>
+            </div>
+  <div class="col-xl-6 order-xl-1 desc-root my-auto text-center text-xl-end">
+  <p>Nusantralala</p>
+                    <p>Kata Pahlawan</p>
+                    <p>Pahlawan Sampah</p>
+                    <p>JagaLoka</p>
+  </div>
+  <div class="col-xl-2 order-xl-2 my-auto d-none d-xl-flex">
+  <img src="assets/img/tree-social@2x.png" class="img-fluid" alt="">
+  </div>
+</div>
+            <!-- <div class="row">
                 <div class="col-6 my-auto desc-root">
                     <p>Nusantralala</p>
                     <p>Kata Pahlawan</p>
                     <p>Pahlawan Sampah</p>
                     <p>JagaLoka</p>
                 </div>
-                <div class="col-2 my-auto">
+                <div class="col-2 my-auto d-none d-lg-block">
                     <img src="assets/img/tree-social@2x.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-4 my-auto">
@@ -46,12 +60,18 @@
                         MOVEMENT
                     </h3>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="campaign">
 
             <div class="row">
-                <div class="col-6 my-auto desc-root">
+                <div class="col-xl-4 order-xl-3 my-auto">
+                    <h3 class="sub-title  text-center">BRAND
+                        <br>
+CAMPAIGN
+                    </h3>
+                </div>
+                <div class="col-xl-6 order-xl-1 text-center text-xl-end  my-auto desc-root">
                     <p>TVC</p>
                     <p>Radio</p>
                     <p>Print</p>
@@ -59,30 +79,24 @@
                     <p>Social Media Campaign</p>
                     <p>Digital Video</p>
                 </div>
-                <div class="col-2 my-auto">
+                <div class="col-xl-2 order-xl-2 my-auto d-none d-xl-flex">
                     <img src="assets/img/campaign@2x.png" class="pe-2 img-fluid" alt="">
-                </div>
-                <div class="col-4 my-auto">
-                    <h3 class="sub-title  text-center">BRAND
-                        <br>
-CAMPAIGN
-                    </h3>
                 </div>
             </div>
         </div>
         <div class="creative">
 
             <div class="row">
-                <div class="col-4 my-auto">
+                <div class="col-xl-4 my-auto">
                     <h3 class="sub-title  text-center">DIGITAL CREATIVE
                         <br>
 PLATFORM
                     </h3>
                 </div>
-                <div class="col-2 my-auto">
+                <div class="col-xl-2 my-auto d-none d-xl-flex">
                     <img src="assets/img/creative@2x.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-6 my-auto desc-root">
+                <div class="col-xl-6 my-auto desc-root text-center text-xl-start">
                     <p>Karya Adalah Doa</p>
                     <p>Comic Crew Yuk</p>
                 </div>
@@ -91,14 +105,14 @@ PLATFORM
         <div class="execution">
 
             <div class="row">
-                <div class="col-4 my-auto">
+                <div class="col-xl-4 my-auto">
                     <h3 class="sub-title  text-center">EXECUTION
                     </h3>
                 </div>
-                <div class="col-2 my-auto">
+                <div class="col-xl-2 my-auto d-none d-xl-flex">
                     <img src="assets/img/execution@2x.png" class="img-fluid ps-4" alt="">
                 </div>
-                <div class="col-6 my-auto desc-root">
+                <div class="col-xl-6 my-auto desc-root text-center text-xl-start">
                     <p>Illustration</p>
                     <p>Video Animation</p>
                     <p>Audio Visual</p>
@@ -112,7 +126,7 @@ PLATFORM
         </div>
         
     </div>
-    <div class="container desc-root text-center">
+    <div class="container desc-sub text-center"  id="client">
     <p>As a Creative PowerHouse, we explored things thoroughly unlike conventional advertising.  We combine many unimaginable ideas, into a disruptive creative communication/output. </p>
     </div>
     
@@ -141,7 +155,7 @@ PLATFORM
         </div>
     </div>
 </div>
-<h1 class="title-about text-center my-5">
+<h1 class="title-about text-center my-5" >
 ACHIEVMENT
 </h1>
 
@@ -172,15 +186,15 @@ ACHIEVMENT
     </div>
 </div>
 
-<h1 class="title-about text-center my-5">
+<h1 class="title-about text-center my-5" id="team">
     THE TEAM
 </h1>
 
-<div class="row g-0 row-cols-5 pb-5">
+<div class="row g-0 row-cols-lg-5 pb-5">
     <?php
     $y = 1;
     while ($y <= 20) : ?>
-        <div class="col ">
+        <div class="col-6 col-lg ">
             <div class="box-team text-start">
                 <img src="assets/img/teamtes@2x.png" class="img-fluid img-team w-100" alt="">
 

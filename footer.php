@@ -1,4 +1,4 @@
-<div class="bg-dark py-4">
+<div class="bg-light py-4">
 
     <div class="container">
         
@@ -29,11 +29,117 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <!-- <script src="gdscripts.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.js"></script> -->
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+    <script type="text/javascript">
+        // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+// init Masonry
+// var $grid = $('.row').masonry({
+//   itemSelector: '.col',
+//   percentPosition: true
+// });
+// layout Masonry after each image loads
+// $grid.imagesLoaded().progress( function() {
+//   $grid.masonry();
+// });  
+
+
+// init Packery
+// var $grid = $('.grid').packery({
+//   itemSelector: '.grid-item',
+//   percentPosition: true
+// });
+// layout Packery after each image loads
+// $grid.imagesLoaded().progress( function() {
+//   $grid.packery();
+// });  
+
+// $('.grid').packery({
+//   percentPosition: true
+// })
+
+// $('#navbarSupportedContent').on('shown.bs.collapse', function () {
+// $("#navs").css("background-color", "white");
+// });
+// $('#navbarSupportedContent').on('hidden.bs.collapse', function () {
+// $("#navs").css("background-color", "unset");
+// });
+
+jQuery(function($) {
+  $('.grid img').each(function(i) {
+    var src = $(this).attr('src'),
+      size = src.split('/').reverse(),
+      h = parseInt(size[1]),
+      w = parseInt(size[2]),
+      flexGrow = (w * 200) / h,
+      flexBasis = (w * 280) / h,
+      paddingBottom = (h / w) * 100;
+    $(this).attr('alt', 'kitten-' + (i + 1))
+      .wrap('<figure>').before('<i>');
+    
+    var figure = $(this).parent('figure');
+      figure.css({
+        'flex-grow': flexGrow,
+        'flex-basis': flexBasis + 'px'
+      })
+      .find('i').css({
+        'padding-bottom': paddingBottom + '%'
+      });
+
+    var img = new Image();
+    img.onload = function() {
+      figure.addClass('loaded');
+    };
+    img.src = src;
+  });
+});
+
+var video = document.getElementById("model_video"); 
+    //this did the trick
+    video.loop = false; 
+    video.addEventListener('ended', function() { 
+      video.currentTime=0.1; video.play(); }, false);
+    video.play();
+    </script>
     <script type="text/javascript">
 ScrollOut({
     targets: 'h3, img ,section, p , h1,h4 ,svg, .text-end,.title-root1,.title-root2,.title-root3 ,.circle'
 }) 
+// $(window).on("scroll", function() {
+//     if($(window).scrollTop() > 50) {
+//         $(".navbar").addClass("activebg");
+//     } else {
+//        $(".navbar").removeClass("activebg");
+//     }
+// });
     </script>
+    <script>
+//         $( document ).ready(function() {
+//     $.getJSON("https://api.unsplash.com/photos/?client_id=_kCh5kCd9QmL8FBoqmmC7HqwMJXSmsAjIVEm1lGQ1cI" , function(data){
+//         $.each (data, function (i , data){
+//                 console.log(data)
+//                 console.log(data.urls.raw)
+//                 $('#main').append('<div class="col-lg-4"><div class="card"><img src="'+data.urls.full+'" class="img-fluid"/></div></div>')
+//             });
+//     });
+// });
+        $( document ).ready(function() {
+    $.getJSON("https://api.unsplash.com/photos/?client_id=_kCh5kCd9QmL8FBoqmmC7HqwMJXSmsAjIVEm1lGQ1cI" , function(data){
+        $.each (data, function (i , data){
+                console.log(data)
+                console.log(data.urls.raw)
+                // return i<3;
+                $('#main').append('<div class="col-lg-4"><div class="card"><img src="'+data.urls.full+'" class="img-fluid"/></div></div>')
+            });
+    });
+});
+    </script>
+    
 </body>
 
 </html>

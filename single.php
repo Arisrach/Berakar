@@ -1,14 +1,14 @@
 
 <?php include_once('header.php'); ?>
-<div class="container" style="padding-top:200px;">
+<div class="container" style="padding-top:106px;">
    <div class="row">
-    <div class="col-11">
+    <div class="col-9">
         <div class="animate">
             <h1 class="fw-bolder text-success">A TRUTH OF TRUTHFUL MONTH</h1>
             <h3 class="category"><span class="sub-color">Client :</span> Coca-Cola Compani Indonesia</h3>
         </div>
     </div>
-    <div class="col-1">
+    <div class="col-3">
         <div class="animate">
 
             <a href="index.php">

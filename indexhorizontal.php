@@ -171,225 +171,68 @@
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" class="img-fluid"/>
       </div>
 </div> -->
+
+
 <div class="containers p-2">
 
-  <div class="row g-2" data-masonry='{"percentPosition": true }'>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" class="w-100 img-fluid" />
-        <div class="overlay2 w-100" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-        </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" class="w-10 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" class="w-10 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-6">
-      <a href="single.php">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" class="w-100 img-fluid" />
-        <div class="overlay2" style="background: unset;">
-          <div class="details">
-            <h3 class="title text-light">A TRUTH OF
-              TRUTHFUL MONTH
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
+<div class="grid">
+
+    <!--
+    "flexGrow":      photo.width * 100 / photo.height,
+    "flexBasis":     photo.width * 240 / photo.height,
+    "paddingBottom": photo.height / photo.width * 100,
+    -->
+    
+    <img src="http://placeimg.com/400/600/animals">
+    <img src="http://placeimg.com/600/400/animals">
+    <img src="http://placeimg.com/700/300/animals">
+    <img src="http://placeimg.com/640/640/animals">
+    <img src="http://placeimg.com/420/640/animals">
+    <img src="http://placeimg.com/480/380/animals">
+    <img src="http://placeimg.com/560/365/animals">
+    <img src="http://placeimg.com/585/250/animals">
+    <img src="http://placeimg.com/850/640/animals">
+    <img src="http://placeimg.com/700/635/animals">
+    <img src="http://placeimg.com/420/610/animals">
+    <img src="http://placeimg.com/800/240/animals">
+    <img src="http://placeimg.com/565/745/animals">
+    <img src="http://placeimg.com/700/300/animals">
+    <img src="http://placeimg.com/785/725/animals">
+    <img src="http://placeimg.com/1060/795/animals">
+    <img src="http://placeimg.com/1050/585/animals">
+    <img src="http://placeimg.com/310/660/animals">
+    <img src="http://placeimg.com/460/640/animals">
+    <img src="http://placeimg.com/580/330/animals">
+    <img src="http://placeimg.com/495/700/animals">
+    <img src="http://placeimg.com/900/330/animals">
+    <img src="http://placeimg.com/530/545/animals">
+    <img src="http://placeimg.com/1200/520/animals">
+    <img src="http://placeimg.com/440/800/animals">
+    <img src="http://placeimg.com/1030/650/animals">
+    <img src="http://placeimg.com/1180/875/animals">
+    <img src="http://placeimg.com/1340/1580/animals">
+    <img src="http://placeimg.com/1050/1485/animals">
+    <img src="http://placeimg.com/1310/1070/animals">
+    <img src="http://placeimg.com/650/885/animals">
+    <img src="http://placeimg.com/990/1430/animals">
+    <img src="http://placeimg.com/990/540/animals">
+    <img src="http://placeimg.com/1200/730/animals">
+    <img src="http://placeimg.com/1380/730/animals">
+    <img src="http://placeimg.com/660/320/animals">
+    <img src="http://placeimg.com/800/250/animals">
+    <img src="http://placeimg.com/610/725/animals">
+    <img src="http://placeimg.com/1590/665/animals">
+    <img src="http://placeimg.com/1050/1400/animals">
+    <img src="http://placeimg.com/1015/1415/animals">
+    <img src="http://placeimg.com/690/875/animals">
+    <img src="http://placeimg.com/810/1540/animals">
+    <img src="http://placeimg.com/275/350/animals">
+    <img src="http://placeimg.com/445/320/animals">
+    <img src="http://placeimg.com/1540/1510/animals">
+    <img src="http://placeimg.com/1550/1170/animals">
+    <img src="http://placeimg.com/1170/490/animals">
+</div>
+
   </div>
 
 
